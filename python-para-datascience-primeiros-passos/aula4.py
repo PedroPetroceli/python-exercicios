@@ -1,0 +1,11 @@
+frase = 'Olá Mundo'
+print(frase)
+frase1 = input('Digite uma frase:')
+print(frase1)
+frase2 = input('Digite uma frase:')
+print(frase2.upper())
+frase3 = input('Digite uma frase:')
+print(frase3.lower())
+print(frase3.replace('e', 'f'))
+print(frase3.replace('a', '@'))
+print(frase3.replace('s', '$'))

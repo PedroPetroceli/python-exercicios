@@ -1,0 +1,7 @@
+"""
+5 - Solicite ao usuário um número e, em seguida, utilize um loop for para imprimir a tabuada desse número, indo de 1 a 10.
+"""
+numero = int(input('Escolha um número: '))
+for i in range(1, 11):
+  calculo = numero * i
+  print(f'{numero} x {i} = {calculo}')
